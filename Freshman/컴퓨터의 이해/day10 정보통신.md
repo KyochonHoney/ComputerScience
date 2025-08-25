@@ -1,107 +1,111 @@
-## 정보통신
+## 📡 정보통신
 
-1. 정보통신의 역사
-    * SAGE(Semi-Automatic Ground Environment) 시스템(1958)
-        - 컴퓨터와 통신을 결합시킨 최초의 컴퓨터 통신 시스템
-    * SABRE(Semi-Automatic Business Research Environment) 시스템(1964)
-        - American Airline사의 여객기 좌석 예약 업무 처리
-    * ★ARPA(Advanced Research Project Agency) Network (1960년대)
-        - Internet의 전신 (- TCP/IP 개발)
-        - 패킷 교환 네트워크 (1968년 계획, 1969년 구축)
-    * ALOHA (Addictive Links Online Hawaii Area) 시스템 (1968년)
-        - 하와이 대학, 실험적 무선 패킷 교환 네트워크
-    * 1970년대 상용화
-        - TELENET : 최초의 상용 패킷 교환 네트워크
-        - TYMNET : 부가가치 통신망
-    <br/>
-    <br/>
-    <br/>
-    정보통신의 역사
-    1940 : 원격 계산기에 데이터 통신
-    1958 : SAGE 시스템
-    1964 : SABRE 시스템
-    1968 : ARPA Network, ALOHA 시스템
-    1974 : TELENET
-    ___
+### 1. 정보통신의 역사 🕰️
+*   **SAGE (Semi-Automatic Ground Environment) 시스템 (1958)**
+    *   컴퓨터와 통신을 결합시킨 최초의 컴퓨터 통신 시스템입니다.
+*   **SABRE (Semi-Automatic Business Research Environment) 시스템 (1964)**
+    *   American Airlines사의 여객기 좌석 예약 업무 처리에 사용되었습니다.
+*   **★ARPA (Advanced Research Project Agency) Network (1960년대)**
+    *   오늘날 **Internet의 전신**이며, **TCP/IP** 개발의 토대가 되었습니다.
+    *   패킷 교환 네트워크로 1968년 계획되어 1969년 구축되었습니다.
+*   **ALOHA (Addictive Links Online Hawaii Area) 시스템 (1968년)**
+    *   하와이 대학에서 개발한 실험적인 무선 패킷 교환 네트워크입니다.
+*   **1970년대 상용화**:
+    *   **TELENET**: 최초의 상용 패킷 교환 네트워크입니다.
+    *   **TYMNET**: 부가가치 통신망입니다.
 
-2. 정보통신망의 목적
-    * 자원의 공유
-    * 신뢰도 향상
-    * 처리기능의 분산
-    
-    ___
+---
 
-3. 데이터통신 시스템의 구성요소
-> 단말장치 - 신호변환장치 - 신호변환장치 - 통신제어장치 - 컴퓨터 <br/>
-> <------------------데이터 전송 시스템 --------------------> <-데이터 처리 시스템->
+### ⏱️ 정보통신 주요 역사 요약
+*   **1940년대**: 원격 계산기에 데이터 통신
+*   **1958년**: SAGE 시스템
+*   **1964년**: SABRE 시스템
+*   **1968년**: ARPA Network, ALOHA 시스템
+*   **1974년**: TELENET
 
-___
-4. 통신선로의 구성
-    - 점대점 선로와 멀티드롭 선로
-___
-5. 네트워크 연결장치
-    - 네트워크 세그먼트를 서로 연결하거나 네트워크를 인터넷에 연결시키기 위한 통신 장치
-    * Modem
-    * NIC ( Network Interface Card )
-    * HUB ( dumb hub; switching hub)
-        - 하나의 노드에서 수신한 신호를 정확히 재생하여 다른 노드로 전송하는 장치
-    * Repeater
-        - 장거리 전송을 위해 신호를 새로 재생시키거나 출력 전압을 높여 재전송해줌
-    * Bridge
-        - 복수개의 LAN을 연결하는 장치
-    * Router
-        - IP 네트워크 간의 연결 또는 IP 네트워크와 인터넷 간의 연결하기 위한 장치
-    * Gateway
-        - 서로 다른 통신 프로토콜을 사용하는 네트워크들을 연결하기 위한 장치
-___
-6. 데이터 전송방식
-    1. 전송방향에 따른 전송방식
-        * 단향식 (simplex) 방송
-        * 반이중식 (half duplex) 무전기
-        * 전이중식 (full duplex) 전화
+---
 
-    2. 전송모드에 따른 전송방식
-        * 직렬전송 (serial transmission)
-        * 병렬전송 (parriel transmission)
-___
-7. 데이터 교환방식
-    * 회선교환(circuit switching) 방식
-    * 축적교환(store-and-forward switching) 방식
-        - 메시지교환 방식
-        - 패킷교환 방식
-            - 가산회선 방식
-            - 데이터그램 방식
-___
-8. 정보통신망 유형
-    1. 위상에 따른 유형
-        * 성형(star)
-        * 환형(ring)
-        * 버스형(bus)
-        * 그물형(mesh)
-        * 트리형(tree)
-    
-    2. 규모에 따른 유형
-        * PAN (Personal Area Network)
-        * LAN (Local Area Network)
-        * CAN (Campus Area Network)
-        * MAN (Metroplitan Area Network)
-        * WAN (Wide Area Network)
+### 2. 정보통신망의 목적 🎯
+*   **자원의 공유**: 하드웨어, 소프트웨어 등 다양한 자원을 함께 사용할 수 있게 합니다.
+*   **신뢰도 향상**: 시스템 고장 시에도 다른 경로를 통해 서비스 지속이 가능합니다.
+*   **처리기능의 분산**: 작업 부하를 여러 컴퓨터에 분산하여 효율을 높입니다.
 
-    3. 활용 목적에 따른 유형
-        * VAN (Value Added Network)
-            - 통신망사업자에게 전용선을 임차하여 구성
-            - 홈뱅킹, 홈쇼핑 등의 서비스 제공
-        * ISDN (Integrated Services Digital Network)
-            - 여러 서비스를 통합하여 제공 ( 전화망과 컴퓨터망의 통합 )
-            - 하나의 망에서 음성 통신과 영상 통신이 가능함
-        * B-ISDN (Broadband ISDN)
-            - 광대역 서비스가 가능한 ISDN
-            - 광케이블을 이용한 통신 (수백Mbps)
-___
-9. 통신 프로토콜의 종류
-    * TCP(Transmission Control Protocol)
-    * IP(Internet Protocol)
-    * UDP(User Datagram Protocol)
-    * SMTP(Simple Mail Transfer Protocol)
-    * POP3(Post Office Protocol 3)
-    * HTTP(Hyper-Text Transfer Protocol)
+---
+
+### 3. 데이터 통신 시스템의 구성요소 🔗
+단말장치 -- 신호변환장치 -- 통신선로 -- 신호변환장치 -- 통신제어장치 -- 컴퓨터
+<------------------ 데이터 전송 시스템 -------------------> <---데이터 처리 시스템--->
+
+
+---
+
+### 4. 통신 선로의 구성 🔌
+*   **점대점 선로 (Point-to-Point Line)**: 두 지점만을 직접 연결하는 선로입니다.
+*   **멀티드롭 선로 (Multi-Drop Line)**: 하나의 선로에 여러 장치가 연결된 선로입니다.
+
+---
+
+### 5. 네트워크 연결 장치 ↔️
+*   **Modem (모뎀)**: 디지털 신호를 아날로그 신호로, 아날로그 신호를 디지털 신호로 변환하여 데이터를 전송합니다.
+*   **NIC (Network Interface Card)**: 컴퓨터를 네트워크에 연결하기 위한 하드웨어 장치입니다.
+*   **HUB (허브)**: 여러 노드에서 수신한 신호를 재생하여 다른 노드로 전송하는 장치입니다. (더미 허브, 스위칭 허브)
+*   **Repeater (리피터)**: 장거리 전송을 위해 신호를 새로 재생시키거나 출력 전압을 높여 재전송해 신호를 강화합니다.
+*   **Bridge (브리지)**: 복수 개의 LAN을 연결하여 데이터를 전달하며, 트래픽을 필터링합니다.
+*   **Router (라우터)**: IP 네트워크 간의 연결 또는 IP 네트워크와 인터넷 간의 연결을 위한 장치로, 최적의 경로를 찾아 데이터를 전달합니다.
+*   **Gateway (게이트웨이)**: 서로 다른 통신 프로토콜을 사용하는 네트워크들을 연결하기 위한 장치로, 프로토콜 변환을 수행합니다.
+
+---
+
+### 6. 데이터 전송 방식 ➡️
+#### 1. 전송 방향에 따른 전송 방식
+*   **단방향식 (Simplex)**: 한 방향으로만 데이터를 전송합니다. (예: 방송)
+*   **반이중식 (Half Duplex)**: 양방향 전송이 가능하지만, 동시에 한 방향으로만 전송됩니다. (예: 무전기)
+*   **전이중식 (Full Duplex)**: 양방향 동시 전송이 가능합니다. (예: 전화)
+
+#### 2. 전송 모드에 따른 전송 방식
+*   **직렬 전송 (Serial Transmission)**: 데이터를 한 비트씩 직렬로 전송합니다.
+*   **병렬 전송 (Parallel Transmission)**: 여러 비트를 동시에 병렬로 전송합니다.
+
+---
+
+### 7. 데이터 교환 방식 🔄
+*   **회선 교환 (Circuit Switching) 방식**: 통신 시작 전에 송신자와 수신자 사이에 물리적인 전용 통신 경로를 설정하고 통신하는 방식입니다.
+*   **축적 교환 (Store-and-Forward Switching) 방식**: 데이터를 일시적으로 저장한 후 적절한 시점에 다음 노드로 전송하는 방식입니다.
+    *   **메시지 교환 방식**: 메시지 전체를 저장하고 전송합니다.
+    *   **패킷 교환 방식**: 메시지를 작은 단위인 패킷으로 나누어 전송합니다.
+        *   **가상 회선 방식**: 통신 시작 전 논리적인 연결 경로를 설정하고 모든 패킷이 동일 경로로 전송됩니다.
+        *   **데이터그램 방식**: 각 패킷이 독립적으로 최적의 경로를 찾아 전송됩니다.
+
+---
+
+### 8. 정보통신망 유형 🌍
+#### 1. 위상 (Topology)에 따른 유형
+*   **성형 (Star)**: 중앙 장치를 통해 모든 노드가 연결됩니다.
+*   **환형 (Ring)**: 노드들이 고리 형태로 연결되어 데이터를 순환시킵니다.
+*   **버스형 (Bus)**: 하나의 공통 전송 매체에 여러 노드가 연결됩니다.
+*   **그물형 (Mesh)**: 모든 노드가 다른 모든 노드와 직접 연결됩니다.
+*   **트리형 (Tree)**: 계층적 구조로 가지처럼 연결됩니다.
+
+#### 2. 규모에 따른 유형
+*   **PAN (Personal Area Network)**: 개인적인 공간 범위의 네트워크입니다.
+*   **LAN (Local Area Network)**: 건물, 사무실 등 비교적 좁은 지역의 네트워크입니다.
+*   **CAN (Campus Area Network)**: 캠퍼스, 단지 등 여러 LAN을 연결한 네트워크입니다.
+*   **MAN (Metropolitan Area Network)**: 도시 규모의 넓은 지역 네트워크입니다.
+*   **WAN (Wide Area Network)**: 국가, 대륙을 아우르는 광범위한 지역 네트워크입니다.
+
+#### 3. 활용 목적에 따른 유형
+*   **VAN (Value Added Network)**: 통신 사업자로부터 전용선을 임차하여 부가가치 서비스를 제공하는 통신망입니다. (예: 홈뱅킹, 홈쇼핑)
+*   **ISDN (Integrated Services Digital Network)**: 음성, 데이터, 영상 등 여러 서비스를 통합하여 제공하는 디지털 통신망입니다. (전화망과 컴퓨터망의 통합)
+*   **B-ISDN (Broadband ISDN)**: 광대역 서비스가 가능한 ISDN으로, 광케이블을 이용하여 수백 Mbps 이상의 빠른 통신을 지원합니다.
+
+---
+
+### 9. 통신 프로토콜의 종류 📜
+*   **TCP (Transmission Control Protocol)**: 신뢰할 수 있는 데이터 전송을 보장하는 프로토콜입니다.
+*   **IP (Internet Protocol)**: 데이터를 패킷 단위로 묶어 인터넷 주소를 기반으로 전송하는 프로토콜입니다.
+*   **UDP (User Datagram Protocol)**: 비연결형 프로토콜로, 빠르지만 신뢰성을 보장하지 않습니다.
+*   **SMTP (Simple Mail Transfer Protocol)**: 이메일 전송에 사용되는 프로토콜입니다.
+*   **POP3 (Post Office Protocol 3)**: 이메일 클라이언트가 메일 서버로부터 이메일을 수신할 때 사용되는 프로토콜입니다.
+*   **HTTP (Hyper-Text Transfer Protocol)**: 웹에서 하이퍼텍스트 문서를 주고받는 데 사용되는 프로토콜입니다.
+
+---
